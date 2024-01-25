@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+
+header {
+  height: 50px;
+  display: flex;
+  padding: 0 2rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  background: #fafafa;
+}
+
+img {
+  display: inline;
+}
+
+h3 {
+  display: inline;
+}
+
+h2 {
+  text-align: center;
+}
+
+main {
+  font-family: system-ui;
+  margin: auto;
+  width: 1440px;
+}
+
+.box {
+  width: 1280px;
+  height: 50px;
+  display: flex;
+  padding: 0 2rem;
+  margin: 0 auto;
+  justify-content: space-between;
+  border: 1px solid #0a0a0a;
+  background: #c9c9c9;
+}
+
+.typeProgramSection {
+  margin: 50px auto;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.changeSongSection {
+  margin: 10px auto;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.currentSong {
+  margin: 50px auto 20px auto;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
